@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="assets/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">JAIPRAKASH YADAV</div>
+            <div class="hamburger" id="hamburger">☰</div>
+            <ul class="nav-links">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <!-- CSS Animated Blob -->
+        <div class="blob blob-top-left"></div>
+        <div class="blob blob-bottom-right"></div>
+
+
+        <div class="hero-container">
+            <!-- Profile Image Card -->
+            <div class="image-wrapper">
+                <div class="image-glow"></div>
+                <img src="assets/profile.jpeg" alt="Your Photo" class="profile-img" />
+            </div>
+
+            <!-- Text Content -->
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Jaiprakash</span></h1>
+                <h2 class="typewriter"></h2>
+                <p>A passionate developer crafting clean, creative websites.</p>
+                <a href="#projects" class="btn-work"> <i class="fas fa-briefcase"></i> My Work</a>
+                <a href="assets/Resume_updated.pdf" download class="btn resume-btn">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+
+        <div class="blob blob-bottom-left-edu"></div>
+        <div class="blob blob-top-right-edu"></div>
+
+        <div class="education-container">
+            <h2>Education</h2>
+
+            <div class="edu-card" data-aos="fade-up">
+                <h3><i class="fas fa-graduation-cap"></i> B.Tech – Computer Science</h3>
+                <p class="edu-meta">College Of Technology And Engineering | 2022 – 2026</p>
+                <p class="edu-desc"> Studied core computer science courses: Data Structures, Algorithms, DBMS, Operating
+                    Systems, Computer Networks, and more.
+                </p>
+                <p class="edu-desc">OGPA : 6.91 (till 5th sem)</p>
+            </div>
+
+            <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+                <h3><i class="fas fa-school"></i> Senior Secondary – PCM </h3>
+                <p class="edu-meta">Gurukul Public School | 2020 – 2021</p>
+                <p class="edu-desc">Early academic exposure to science and computing during my schooling nurtured my
+                    interest in
+                    technology and problem-solving.</p>
+                <p class="edu-desc">Passed with 95.80%</p>
+            </div>
+
+            <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+                <h3><i class="fas fa-code"></i> Web Development </h3>
+                <p class="edu-meta">Udemy | 2024 - 2025</p>
+                <p class="edu-desc">I'm currently enhancing my skills by learning modern web development through this
+                    course. This
+                    continuous learning approach helps me stay aligned with current industry trends and best practices.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+
+        <div class="blob blob-top-left-skills"></div>
+        <div class="blob blob-bottom-right-skills"></div>
+
+        <div class="skills-container">
+            <h2>Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-category" data-aos="fade-up">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill"><span>HTML</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>CSS</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>JavaScript</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>React.js</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>DOM Manipulation</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-language"></i>Languages</h3>
+                    <div class="skill"><span>C Language</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>C++</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>Basic Java</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-tools"></i> Tools & Tech</h3>
+                    <div class="skill"><span>Git & GitHub</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>VS Code</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>Canva</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>Figma</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-skills"></i> Others</h3>
+                    <div class="skill"><span>Quantitative Finance</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>Music Production</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill"><span>Sound Design</span>
+                        <div class="bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+
+        <div class="blob-exp blob-exp-top-right"></div>
+        <div class="blob-exp blob-exp-bottom-left"></div>
+
+        <h2>Experience</h2>
+
+        <div class="timeline-vertical">
+
+            <!-- 🔹 Experience Card 1 -->
+            <div class="experience-entry" data-aos="fade-up">
+                <div class="dot-glow"></div>
+                <div class="exp-card">
+                    <img src="assets/1.png" alt="Internship Logo" class="exp-logo" />
+                    <div class="exp-right">
+                        <h3>Frontend Developer Intern</h3>
+                        <span class="company-name">Cognifyz Technologies</span>
+                        <span class="date-range">June 2024 – July 2024</span>
+                        <p>
+                            Built responsive web interfaces and improved UI/UX using HTML, CSS, and JavaScript.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- 🔸 Experience Card 2 -->
+            <div class="experience-entry" data-aos="fade-up">
+                <div class="dot-glow"></div>
+                <div class="exp-card">
+                    <img src="assets/2.png" alt="Internship Logo" class="exp-logo" />
+                    <div class="exp-right">
+                        <h3>Subject Matter Expert</h3>
+                        <span class="company-name">Chegg India</span>
+                        <span class="date-range">February 2024 – Present</span>
+                        <p>
+                            Provided accurate, concept-rich solutions in Chemistry, enhancing student understanding
+                            worldwide.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 🔸 Experience Card 3 -->
+            <div class="experience-entry" data-aos="fade-up">
+                <div class="dot-glow"></div>
+                <div class="exp-card">
+                    <img src="assets/3.png" alt="Internship Logo" class="exp-logo" />
+                    <div class="exp-right">
+                        <h3>Research Consultant</h3>
+                        <span class="company-name">World Quant Brain</span>
+                        <span class="date-range">June 2025 – Present</span>
+                        <p>
+                            Designed and tested quantitative trading strategies through data-driven research and
+                            predictive modeling.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+
+        <div class="blob blob-top-left"></div>
+        <div class="blob blob-bottom-right"></div>
+
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-content">
+                    <div class="project-info">
+                        <h3>JP BEATS - Online Beat Store</h3>
+                        <p>JP BEATS is a personal, sleek and responsive music beat-selling website crafted with HTML,
+                            CSS, and JavaScript. It allows users to preview, explore and purchase exclusive beats with
+                            modern UI/UX. The platform features animated preview modals, a floating now-playing bar,
+                            glassmorphism-inspired cards, and a responsive hamburger menu.</p>
+                        <div class="project-buttons">
+                            <a href="https://jpbeats.netlify.app" target="_blank">Live</a>
+                            <a href="https://github.com/Jaip006/JP-BEATS" target="_blank">Code</a>
+                        </div>
+                    </div>
+
+                    <div class="slideshow-wrapper">
+                        <div class="slide-track">
+                            <img src="assets/ps1.png" alt="Screenshot 1" />
+                            <img src="assets/ps2.png" alt="Screenshot 2" />
+                            <img src="assets/ps3.png" alt="Screenshot 3" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact-section">
+
+        <div class="blob blob-top-right"></div>
+        <div class="blob blob-bottom-left"></div>
+
+        <div class="contact-container" data-aos="fade-up">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Got a project or collaboration in mind? Let’s make it happen.</p>
+
+            <form class="contact-form" id="contact-form">
+                <input type="text" name="user_name" placeholder="Your Name" required />
+                <input type="email" name="user_email" placeholder="Your Email" required />
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="social-icons">
+        <a href="https://github.com/Jaip006" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jaip06/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://instagram.com/j__._.__p" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <footer>
+        <p class="footer">&copy; 2024 Jaiprakash Yadav. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("h-1dJr47-5Uvkh_hT");
+        })();
+    </script>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
