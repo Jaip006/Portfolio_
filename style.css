@@ -1036,6 +1036,12 @@ header {
 }
 
 @media (max-width: 480px) {
+
+  .logo {
+    font-size: 25px;
+    letter-spacing: 0.3px;
+}
+
   .hero-content h1 {
     font-size: 24px;
   }
@@ -1044,10 +1050,35 @@ header {
     font-size: 18px;
   }
 
+  .image-wrapper {
+    width: 200px;
+    height: 200px;
+}
+
+.education-section {
+    padding: 50px 20px;
+}
+
+.skills-section{
+  padding: 50px 20px;
+}
+
+.experience-section{
+  padding: 60px 20px;
+}
+
+.projects-section{
+  padding: 70px 20px;
+}
+
+.contact-section{
+  padding: 70px 20px;
+}
+
   .btn,
   .btn-work,
   .contact-form button {
-    width: 100%;
+    width: 70%;
     padding: 14px;
   }
 
@@ -1062,4 +1093,8 @@ header {
   .slideshow-wrapper {
     width: 100%;
   }
+
+  .btn-work {
+    background: linear-gradient(90deg, #38bdf8, #be82ffa0);
+}
 }
