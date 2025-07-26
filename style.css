@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    padding: 20px 50px;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     background-color: #1e293b;
@@ -34,7 +34,7 @@ header {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.3px;
     transition: transform 0.3s ease;
     cursor: default;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1038,8 +1038,8 @@ header {
 @media (max-width: 480px) {
 
   .logo {
-    font-size: 25px;
-    letter-spacing: 0.3px;
+    font-size: 20px;
+    letter-spacing: 0.1px;
 }
 
   .hero-content h1 {
